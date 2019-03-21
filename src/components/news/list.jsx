@@ -76,7 +76,7 @@ export default class NewsList extends Component {
 								)}
 
 								{item.title && (
-									<p className="news-headline truncate-text" title={item.title}>
+									<p className="news-headline " title={item.title}>
 										{item.title}
 									</p>
 								)}

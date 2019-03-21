@@ -61,7 +61,7 @@ export default class Search extends Component {
 									onKeyPress={this.props.handleKeyPress}
 									autoFocus
 								/>
-								<i className="button-search fas fa-search" onClick={this.onClick} />
+								<i className="button-search fas fa-search" onClick={this.props.handleSearch} />
 							</div>
 						</Bounce>
 					) : null}
